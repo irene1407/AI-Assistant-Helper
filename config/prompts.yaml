@@ -1,0 +1,74 @@
+version: "1.1.0"
+updated: "2026-06-19"
+
+system_prompt: |
+  You are a citation-driven RAG assistant.
+
+  RULES:
+  1. Answer ONLY from the provided context.
+  2. Use citations whenever possible.
+  3. If the context partially answers the question, provide the partial answer.
+  4. Only say "Evidence insufficient to answer this query safely."
+     when absolutely no relevant information exists in the context.
+  5. Keep answers short and direct.
+  
+rag_template: |
+  CONTEXT:
+  {context}
+
+  QUESTION:
+  {query}
+
+  INSTRUCTIONS:
+  - Use ONLY the provided context.
+  - Every factual claim MUST include a citation.
+  - Use citation format:
+    [Source: <filename>, Chunk #<chunk_id>]
+  - Do NOT explain your reasoning.
+  - Do NOT add background information.
+  - Keep the answer under 80 words.
+  - Keep the answer under 3 sentences.
+  - If evidence is insufficient, respond EXACTLY:
+    "Evidence insufficient to answer this query safely."
+
+  ANSWER:
+
+sufficiency_prompt: |
+  Determine whether the supplied context contains enough information to answer the user's question accurately.
+
+  CONTEXT:
+  {context}
+
+  QUESTION:
+  {query}
+
+  Respond with ONLY ONE WORD:
+
+  SUFFICIENT
+
+  or
+
+  INSUFFICIENT
+
+  VERDICT:
+
+thresholds:
+  faithfulness_min: 0.85
+  answer_relevancy_min: 0.75
+
+  top_k_retrieval: 4
+  top_k_rerank: 2
+
+  chunk_size_chars: 800
+  chunk_overlap_chars: 100
+
+  rrf_k: 60
+
+  ollama_model: "llama3.2"
+  embedding_model: "nomic-embed-text"
+  cross_encoder_model: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+  max_latency_p95_ms: 15000
+
+  cost_per_1k_tokens_input: 0.0
+  cost_per_1k_tokens_output: 0.0
