@@ -18,7 +18,7 @@ import plotly.express as px
 import requests as _requests
 
 st.set_page_config(
-    page_title="NeuralRAG — Enterprise Console",
+    page_title="RetreivalGPT — Enterprise Console",
     page_icon="⬡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -759,7 +759,7 @@ def render_hero(h1_plain: str, h1_grad: str, subtitle: str, tags: list[str], sta
     st.markdown(f"""
     <div class="hero">
       <div class="hero-inner">
-        <div class="hero-eyebrow">⬡ Enterprise RAG Platform</div>
+        <div class="hero-eyebrow">⬡ RetrievalGPT </div>
         <div class="hero-h1">{h1_plain} <span class="grad">{h1_grad}</span></div>
         <p class="hero-sub">{subtitle}</p>
         <div class="hero-tags">{tags_html}</div>
