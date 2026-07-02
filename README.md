@@ -970,7 +970,7 @@ The retrieval engine automatically determines the most relevant document chunks 
 Every question triggers both retrieval mechanisms simultaneously.
 <img src="assets/screenshots/user1.png" width="90%" alt="Hybrid Retrieval"/>
 
-<This approach combines:
+This approach combines:
 
 - Semantic similarity
 - Exact keyword matching
@@ -1019,6 +1019,7 @@ Benefits:
 # Example End-to-End Query
 
 <img src="assets/screenshots/user2.png" width="90%" alt="End to end query"/>
+
 ---
 
 
