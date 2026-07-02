@@ -1802,6 +1802,6 @@ Built to explore modern AI engineering practices through modular Retrieval-Augme
 **If this project helped you, consider giving it a ⭐ on GitHub.**
 
 <br>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,24&height=180&section=header&text=RetrievalGPT&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,24&height=120&section=footer"/>
 
 </div>
