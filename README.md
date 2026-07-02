@@ -1476,13 +1476,13 @@ RetrievalGPT is designed as a foundation for experimentation with modern Retriev
 
 Several advanced capabilities are planned to further improve RetrievalGPT.
 
-### 🧠 Long-Term Conversation Memory
+###  Long-Term Conversation Memory
 
 Maintain context across multiple user interactions to enable conversational knowledge retrieval.
 
 ---
 
-### 📄 OCR Pipeline
+###  OCR Pipeline
 
 Automatically extract text from scanned PDFs and images before indexing.
 
@@ -1494,7 +1494,7 @@ Potential integrations:
 
 ---
 
-### 🖼️ Image Retrieval
+###  Image Retrieval
 
 Support multimodal Retrieval-Augmented Generation by indexing image embeddings alongside text.
 
@@ -1507,7 +1507,7 @@ Potential capabilities include:
 
 ---
 
-### 🤖 Agentic RAG
+###  Agentic RAG
 
 Enable autonomous multi-step workflows.
 
@@ -1539,7 +1539,7 @@ Generate Final Answer
 
 ---
 
-### 🌐 REST API
+###  REST API
 
 Expose RetrievalGPT through REST endpoints for integration with external applications.
 
@@ -1559,7 +1559,7 @@ GET /metrics
 
 ---
 
-### 🐳 Docker Deployment
+###  Docker Deployment
 
 Simplify deployment through containerized infrastructure.
 
@@ -1571,7 +1571,7 @@ docker compose up --build
 
 ---
 
-### ☁ Cloud Deployment
+###  Cloud Deployment
 
 Future deployment targets include:
 
@@ -1794,9 +1794,6 @@ If you found this repository useful:
 
 <div align="center">
 
-## RetrievalGPT
-
-### Enterprise Retrieval-Augmented Generation with Hybrid Search and Citation-Grounded Responses
 
 Built to explore modern AI engineering practices through modular Retrieval-Augmented Generation pipelines, local language model inference, hybrid retrieval strategies, and explainable AI.
 
@@ -1805,7 +1802,6 @@ Built to explore modern AI engineering practices through modular Retrieval-Augme
 **If this project helped you, consider giving it a ⭐ on GitHub.**
 
 <br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,24&height=180&section=header&text=RetrievalGPT&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
 </div>
