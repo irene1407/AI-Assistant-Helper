@@ -13,15 +13,13 @@
 <img src="https://img.shields.io/badge/Python-3.10+-000000?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Streamlit-App-000000?style=for-the-badge&logo=streamlit&logoColor=white"/>
 <img src="https://img.shields.io/badge/Ollama-Local%20Inference-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Llama-3.2-blueviolet?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ChromaDB-Vector%20Database-6A5ACD?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/BM25-Hybrid%20Retrieval-008080?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RRF-Reciprocal%20Rank%20Fusion-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Offline-Privacy%20Friendly-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Llama-3.2-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ChromaDB-Vector%20Database-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/BM25-Hybrid%20Retrieval-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RRF-Reciprocal%20Rank%20Fusion-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Offline-Privacy%20Friendly-000000?style=for-the-badge"/>
 
 <br>
-
-<img src="https://komarev.com/ghpvc/?username=RetrievalGPT&label=Repository+Views&style=flat-square"/>
 
 </div>
 
@@ -31,7 +29,6 @@
 
 - [Overview](#overview)
 - [Why RetrievalGPT](#why-retrievalgpt)
-- [Highlights](#highlights)
 - [Core Features](#core-features)
 - [Architecture](#architecture)
 - [Screenshots](#screenshots)
@@ -86,92 +83,28 @@ Rather than serving as a simple chatbot, RetrievalGPT showcases how real-world A
 
 ---
 
-# Highlights
-
-<table>
-
-<tr>
-
-<td width="33%" align="center">
-
-### 🔍 Hybrid Retrieval
-
-Dense semantic search powered by ChromaDB is combined with BM25 keyword retrieval to maximize recall across structured and unstructured documents.
-
-</td>
-
-<td width="33%" align="center">
-
-### 📚 Citation Grounding
-
-Every generated response references the exact document chunks used during generation, improving explainability and reducing hallucinations.
-
-</td>
-
-<td width="33%" align="center">
-
-### 🔒 Offline AI
-
-Runs entirely on local hardware using Ollama and Llama 3.2, eliminating dependence on external APIs while preserving data privacy.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center">
-
-### ⚡ Enterprise Pipeline
-
-Document ingestion, chunking, embeddings, indexing, retrieval, ranking, and generation are organized into modular components.
-
-</td>
-
-<td align="center">
-
-### 📈 Evaluation Ready
-
-Supports benchmarking, latency tracking, retrieval quality evaluation, and future observability integrations.
-
-</td>
-
-<td align="center">
-
-### 🧩 Modular Architecture
-
-Individual components can be replaced independently, making experimentation with new embedding models or vector databases straightforward.
-
-</td>
-
-</tr>
-
-</table>
-
----
-
 # Core Features
 
 | Feature | Description |
 |----------|-------------|
-| 📄 PDF Upload | Upload and index PDF documents for semantic search |
-| 📝 Markdown Upload | Retrieve information from Markdown knowledge bases |
-| 📃 Plain Text Upload | Import raw text files into the retrieval pipeline |
-| 📋 Paste Text | Instantly index manually pasted content |
-| 🌐 Web URL Ingestion | Retrieve and index content directly from websites |
-| ✂️ Intelligent Chunking | Automatically split large documents into optimized chunks |
-| 🧬 Embedding Generation | Generate semantic embeddings using Nomic Embed Text |
-| 🗄️ ChromaDB Vector Search | Persistent vector database for dense retrieval |
-| 🔑 BM25 Keyword Search | Sparse lexical retrieval for exact keyword matching |
-| 🔀 Reciprocal Rank Fusion | Merge dense and sparse search results into a unified ranking |
-| 🦙 Local LLM Inference | Generate responses locally with Ollama and Llama 3.2 |
-| 📚 Citation-Grounded Answers | Every answer includes supporting evidence from retrieved documents |
-| 📊 Performance Metrics | Track latency, retrieval time, and response generation |
-| 📈 Evaluation Pipeline | Measure retrieval quality and system performance |
-| 👀 Observability | Monitor pipeline execution and retrieval behavior |
-| 🎨 Modern Streamlit UI | Interactive interface for document management and querying |
-| 🔒 Privacy Friendly | No external API calls or cloud dependencies |
-| 💻 Fully Offline | Complete end-to-end local execution |
+| PDF Upload | Upload and index PDF documents for semantic search |
+| Markdown Upload | Retrieve information from Markdown knowledge bases |
+| Plain Text Upload | Import raw text files into the retrieval pipeline |
+| Paste Text | Instantly index manually pasted content |
+| Web URL Ingestion | Retrieve and index content directly from websites |
+| Intelligent Chunking | Automatically split large documents into optimized chunks |
+| Embedding Generation | Generate semantic embeddings using Nomic Embed Text |
+| ChromaDB Vector Search | Persistent vector database for dense retrieval |
+| BM25 Keyword Search | Sparse lexical retrieval for exact keyword matching |
+| Reciprocal Rank Fusion | Merge dense and sparse search results into a unified ranking |
+| Local LLM Inference | Generate responses locally with Ollama and Llama 3.2 |
+| Citation-Grounded Answers | Every answer includes supporting evidence from retrieved documents |
+| Performance Metrics | Track latency, retrieval time, and response generation |
+| Evaluation Pipeline | Measure retrieval quality and system performance |
+| Observability | Monitor pipeline execution and retrieval behavior |
+| Modern Streamlit UI | Interactive interface for document management and querying |
+| Privacy Friendly | No external API calls or cloud dependencies |
+| Fully Offline | Complete end-to-end local execution |
 
 ---
 
@@ -179,24 +112,24 @@ Individual components can be replaced independently, making experimentation with
 
 The following screenshots showcase the core functionality and user interface of RetrievalGPT.
 
-> Replace the placeholder image paths below with screenshots from your project.
-
 ---
 
-## 🖥️ Application Dashboard
+##  Application Dashboard
 
 <p align="center">
-<img src="assets/screenshots/dashboard.png" width="90%" alt="Dashboard"/>
+<img src="assets/screenshots/Dashboard.png" width="90%" alt="Dashboard"/>
 </p>
 
 Displays the primary workspace where users can upload knowledge sources, configure retrieval settings, and interact with the local language model.
 
 ---
 
-## 📄 Document Upload
+##  Document Upload
 
 <p align="center">
-<img src="assets/screenshots/document-upload.png" width="90%" alt="Document Upload"/>
+<img src="assets/screenshots/Upload1.png" width="90%" alt="Document Upload"/>
+<img src="assets/screenshots/Upload2.png" width="90%" alt="Document Upload"/>
+<img src="assets/screenshots/Upload3.png" width="90%" alt="Document Upload"/>
 </p>
 
 Supports ingestion of:
@@ -209,10 +142,13 @@ Uploaded documents are automatically processed, chunked, embedded, and indexed.
 
 ---
 
-## 🌐 Web URL Ingestion
+## Web URL Ingestion
 
 <p align="center">
-<img src="assets/screenshots/url-upload.png" width="90%" alt="URL Upload"/>
+<img src="assets/screenshots/URL1.png" width="90%" alt="URL Upload"/>
+<img src="assets/screenshots/URL2.png" width="90%" alt="URL Upload"/>
+<img src="assets/screenshots/URL3.png" width="90%" alt="URL Upload"/>
+<img src="assets/screenshots/URL4.png" width="90%" alt="URL Upload"/>
 </p>
 
 Import online content directly from web pages.
@@ -227,20 +163,21 @@ The ingestion pipeline automatically:
 
 ---
 
-## 📋 Paste Text
+##  Paste Text
 
 <p align="center">
-<img src="assets/screenshots/paste-text.png" width="90%" alt="Paste Text"/>
+<img src="assets/screenshots/paste1.png" width="90%" alt="Paste Text"/>
+<img src="assets/screenshots/paste2.png" width="90%" alt="Paste Text"/>
 </p>
 
 Quickly build a knowledge base without uploading files by directly pasting raw text into the application.
 
 ---
 
-## 💬 Question Answering
+##  Question Answering
 
 <p align="center">
-<img src="assets/screenshots/question-answering.png" width="90%" alt="Question Answering"/>
+<img src="assets/screenshots/question_answering.png" width="90%" alt="Question Answering"/>
 </p>
 
 Users can query indexed knowledge using natural language while the retrieval engine automatically gathers relevant context before invoking the local LLM.
@@ -251,7 +188,6 @@ Users can query indexed knowledge using natural language while the retrieval eng
 ## Citation Grounding
 
 <p align="center">
-<img src="assets/screenshots/citations.png" width="90%" alt="Citation Grounding"/>
 <img src="assets/screenshots/Upload4.png" width="90%" alt="Citation Grounding"/>
 </p>
 
@@ -260,33 +196,6 @@ Every generated answer is accompanied by citations pointing back to the exact do
 This significantly improves transparency and reduces hallucinations.
 
 ---
-
-## 📊 Performance Dashboard
-## Performance Dashboard
-
-<p align="center">
-<img src="assets/screenshots/performance.png" width="90%" alt="Performance"/>
-</p>
-
-Displays retrieval metrics including:
-
-- Embedding Time
-- Retrieval Time
-- Generation Time
-- Total Response Latency
-
----
-
-## 🌙 Dark Theme Interface
-
-<p align="center">
-<img src="assets/screenshots/dark-theme.png" width="90%" alt="Dark Theme"/>
-</p>
-
-A clean, modern Streamlit interface designed for comfortable long-form interaction.
-
----
-
 # Architecture
 
 RetrievalGPT follows a modular Retrieval-Augmented Generation (RAG) architecture inspired by production AI systems.
@@ -1175,47 +1084,8 @@ Llama 3.2
 
 Citation Grounded Answer
 ```
-
 ---
 
-# Performance Metrics
-
-RetrievalGPT exposes runtime statistics for every query.
-
-Typical metrics include:
-
-| Metric | Description |
-|---------|-------------|
-| Embedding Time | Time required to generate embeddings |
-| Retrieval Time | Hybrid retrieval latency |
-| Fusion Time | Reciprocal Rank Fusion latency |
-| Prompt Construction | Context assembly time |
-| LLM Generation | Model inference duration |
-| Total Response Time | End-to-end latency |
-
----
-
-# Example Metrics
-
-```text
-Embedding Time        118 ms
-
-Semantic Search        42 ms
-
-BM25 Search            18 ms
-
-RRF Fusion              4 ms
-
-Prompt Creation        10 ms
-
-LLM Generation       1450 ms
-
-────────────────────────────
-
-Total Response      1642 ms
-```
-
----
 
 # Performance Dashboard
 
