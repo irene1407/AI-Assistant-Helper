@@ -968,40 +968,8 @@ The retrieval engine automatically determines the most relevant document chunks 
 # Hybrid Retrieval
 
 Every question triggers both retrieval mechanisms simultaneously.
-
-```text
-User Question
-
-       │
-
-       ▼
-
-Semantic Search
-
-       +
-
-Keyword Search
-
-       │
-
-       ▼
-
-Reciprocal Rank Fusion
-
-       │
-
-       ▼
-
-Top-k Context
-
-       │
-
-       ▼
-
-Local LLM
-```
-
-This approach combines:
+<img src="assets/screenshots/user1.png" width="90%" alt="Hybrid Retrieval"/>
+<This approach combines:
 
 - Semantic similarity
 - Exact keyword matching
@@ -1049,41 +1017,7 @@ Benefits:
 
 # Example End-to-End Query
 
-```text
-User
-
-How does the application process uploaded PDFs?
-
-↓
-
-Retriever
-
-Searches vector database
-
-+
-
-Searches BM25 index
-
-↓
-
-RRF Ranking
-
-↓
-
-Top 5 Chunks
-
-↓
-
-Prompt Construction
-
-↓
-
-Llama 3.2
-
-↓
-
-Citation Grounded Answer
-```
+<img src="assets/screenshots/user2.png" width="90%" alt="End to end query"/>
 ---
 
 
